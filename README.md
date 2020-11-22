@@ -5,7 +5,7 @@ cross-request是一个赋予html页面跨域请求能力的chrome扩展，结合
 1. cross-request不支持文件上传
 2. Yapi测试集合不支持文件上传，导致测试用例无法运行
 
-##解决cross-request不支持文件上传的问题
+## 解决cross-request不支持文件上传的问题
 
 chrome 在 73 版本后，限制了 content-script 跨域请求。目前只有一个解决办法，废弃 content-script 跨域请求，使用background.js 执行跨域请求，但这样有个最大的问题是无法支持文件上传。
 
@@ -44,7 +44,7 @@ chrome 在 73 版本后，限制了 content-script 跨域请求。目前只有�
 
 ## 问题交流
 
-
+![](https://github.com/xiuxiuing/cross-request/blob/master/img/WX20201122-222248%402x.png)
 
 
 
