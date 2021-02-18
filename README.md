@@ -11,6 +11,19 @@ chrome 在 73 版本后，限制了 content-script 跨域请求。目前只有�
 
 **本插件已经修复了文件上传的问题，你可以直接下载代码，使用Chrome开发者模式加载源码进行安装。**
 
+## Chrome安装cross-request步骤
+
+1. 点击`Code`下载源码
+   ![](https://github.com/xiuxiuing/cross-request/blob/master/img/downcode.png)
+2. 解压源码后，把源码放置到可信位置，**源码文件夹不可删除**
+3. Chrome浏览器地址栏中输入`chrome://extensions/`，进入扩展程序页面
+4. 打开【开发者模式】->【加载已解压的扩展程序】->【选择文件夹】安装插件
+    ![](https://github.com/xiuxiuing/cross-request/blob/master/img/installcode.png)
+5. 插件安装完成，刷新页面即可使用。
+
+**欢迎点击Star支持一下，有问题可以提Issues交流**
+
+
 ## 解决Yapi测试集合不支持文件上传的问题
 
 对于测试集合中包含文件上传的接口时，收到的上传文件总是为空。因为Yapi不能正确支持文件上传。
