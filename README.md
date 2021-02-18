@@ -14,7 +14,7 @@ chrome 在 73 版本后，限制了 content-script 跨域请求。目前只有�
 ## Chrome安装cross-request步骤
 
 1. 点击`Code`下载源码
-   ![](https://github.com/xiuxiuing/cross-request/blob/master/img/downcode.png)
+    ![](https://github.com/xiuxiuing/cross-request/blob/master/img/downcode.png)
 2. 解压源码后，把源码放置到可信位置，**源码文件夹不可删除**
 3. Chrome浏览器地址栏中输入`chrome://extensions/`，进入扩展程序页面
 4. 打开【开发者模式】->【加载已解压的扩展程序】->【选择文件夹】安装插件
