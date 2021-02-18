@@ -14,10 +14,12 @@ chrome 在 73 版本后，限制了 content-script 跨域请求。目前只有�
 ## Chrome安装cross-request步骤
 
 1. 点击`Code`下载源码
+   
     ![](https://github.com/xiuxiuing/cross-request/blob/master/img/downcode.png)
 2. 解压源码后，把源码放置到可信位置，**源码文件夹不可删除**
 3. Chrome浏览器地址栏中输入`chrome://extensions/`，进入扩展程序页面
 4. 打开【开发者模式】->【加载已解压的扩展程序】->【选择文件夹】安装插件
+   
     ![](https://github.com/xiuxiuing/cross-request/blob/master/img/installcode.png)
 5. 插件安装完成，刷新页面即可使用。
 
@@ -55,9 +57,6 @@ chrome 在 73 版本后，限制了 content-script 跨域请求。目前只有�
 
 这样，接口保存到测试集合中也支持文件上传功能了。
 
-## 问题交流
-
-![](https://github.com/xiuxiuing/cross-request/blob/master/img/WX20201122-222248%402x.png)
 
 
 
